@@ -1,3 +1,3 @@
-# cata文档
+# CSTA文档
 
 在线阅读：http://wdd.js.org/csta/
