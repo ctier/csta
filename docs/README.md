@@ -366,6 +366,7 @@ establishedTimestamp | Int | 接通时间戳
 deliverLength | Int | 振铃时长
 talkLength | Int | 通话时长，如果没有通话，则该值为0
 isInnerCall | Boolean | 是内部分机之间的呼叫，还是内外线之间的呼叫
+endReason | String | 挂断原因，客户先挂，座席先挂，还是未接听之类的
 
 > 当前模型的不合理之处: 当前挂断事件在手工外呼时，挂断事件座席端会收到两个；在预占式外呼时，挂断事件只有一个。`我认为在两方通话时，应该统一成只发送一个挂断事件给客户端`
 
