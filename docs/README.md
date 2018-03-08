@@ -365,6 +365,7 @@ deliveredTimestamp | Int | 振铃时间戳
 establishedTimestamp | Int | 接通时间戳
 deliverLength | Int | 振铃时长
 talkLength | Int | 通话时长，如果没有通话，则该值为0
+queueLength | Int | 排队时长 
 isInnerCall | Boolean | 是内部分机之间的呼叫，还是内外线之间的呼叫
 endReason | String | 挂断原因，客户先挂，座席先挂，还是未接听之类的
 
